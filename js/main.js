@@ -34,7 +34,7 @@ cantidadEnCarrito();
 
 function cargoVectorJuegosProximos() {
 
-    // Hice el archivo json y hago el fetch desde GITHUB porq no me funcionaba local cuando subía la página
+    // Hice el archivo json y hago el fetch desde GITHUB 
     fetch('https://raw.githubusercontent.com/alloisa2005/ludotecapp/main/data/juegosProximos.json')
         .then(res => res.json())
         .then(datos => {
