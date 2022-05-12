@@ -458,7 +458,7 @@ async function cargoVectorJuegos() {
 
     try {
         // Hice el archivo json y hago el fetch desde GITHUB porq no me funcionaba local cuando subía la página            
-        let res = await fetch('../data/juegosTienda.json');
+        let res = await fetch('https://raw.githubusercontent.com/alloisa2005/ludotecapp/main/data/juegosTienda.json');
         let data = await res.json();
         listaJuegos = data;
 
