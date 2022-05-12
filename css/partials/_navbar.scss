@@ -1,0 +1,30 @@
+.logo_nav {
+    margin: 0 10px;
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+}
+
+.titulos_navbar {
+    font-size: 1.2rem;
+}
+
+.icono-carro {
+    position: relative;
+    display: inline-block;
+    svg {
+        display: inline-block;
+    }
+    div {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background-color: red;
+        right: 10%;
+        top: 8%;
+        border-radius: 50%;
+        color: white;
+        font-size: .7rem;
+        align-items: center;
+    }
+}

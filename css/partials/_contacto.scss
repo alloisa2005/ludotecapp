@@ -1,0 +1,104 @@
+.contacto {
+    width: 100%;
+    h5 {
+        margin: 1em .8em;
+        font-size: 1.2rem;
+        margin-bottom: 1em;
+        text-align: justify;
+    }
+    p {
+        font-size: 1.1rem;
+        margin-bottom: 1em;
+    }
+    svg {
+        fill: $negro_per;
+        height: 45px;
+        width: 45px;
+        transition: all 250ms ease;
+        &:hover {
+            fill: green;
+        }
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+    form {
+        height: 100%;
+        input {
+            font-weight: bold;
+        }
+        input,
+        textarea {
+            font-size: 1rem;
+            padding: .4em;
+        }
+        textarea {
+            resize: none;
+            margin: 0!important;
+        }
+        button {
+            transition: all .5s ease;
+            color: #212529;
+            border: 3px solid #212529;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1;
+            font-size: 1.2rem;
+            background-color: transparent;
+            padding: 10px;
+            outline: none;
+            border-radius: 4px;
+            margin-top: 1em;
+        }
+    }
+    .imagen_contacto {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+        -webkit-box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+        -moz-box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+    }
+}
+
+.input_correcto {
+    border: 2px solid rgb(20, 226, 20);
+}
+
+.input_incorrecto {
+    border: 2px solid red;
+}
+
+#error_nombre,
+#error_mail,
+#error_asunto,
+#error_msj {
+    font-size: .9rem;
+    color: rgba(21, 19, 19, 0.84);
+}
+
+@media only screen and (min-width: 576px) {
+    .contacto {
+        h5 {
+            margin: 1.8em 1.3em;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .contacto {
+        h5 {
+            margin: 2em 1.7em;
+            font-size: 1.4rem;
+        }
+    }
+    .input_correcto {
+        border: 3px solid rgb(20, 226, 20);
+    }
+    .input_incorrecto {
+        border: 3px solid red;
+    }
+}

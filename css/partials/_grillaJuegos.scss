@@ -1,0 +1,324 @@
+.llegados {
+    h2 {
+        font-size: 1.7rem;
+        background-color: $negro_per;
+        color: white;
+        padding: .3em;
+    }
+}
+
+.recien_llegados {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    //
+    svg {
+        width: 36px;
+        height: 36px;
+        margin-right: .7em;
+    }
+    &_card {
+        border-radius: 15px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.532);
+        .span_fecha {
+            color: green;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        img {
+            padding: 1em;
+            width: 100%;
+            object-fit: cover;
+        }
+        p {
+            color: green;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+            text-align: start;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: .6em;
+        }
+        h4 {
+            font-size: 1.1rem;
+            text-align: start;
+            font-weight: bold;
+            color: gray;
+        }
+        .precio {
+            color: $negro_per;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        button {
+            width: 100%;
+            font-size: 1.1rem;
+        }
+        &:hover {
+            box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+            -webkit-box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+        }
+    }
+}
+
+.grilla_juegos {
+    margin: 1.2em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    .tarjeta {
+        border: 1px solid rgba(128, 128, 128, 0.556);
+        position: relative;
+        .img_card {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+        }
+        svg {
+            display: none;
+            height: 18px;
+            width: 18px;
+        }
+        .corazon {
+            position: absolute;
+            right: 0.5em;
+            top: 0.5em;
+        }
+        .tarjeta_titulo {
+            background-color: rgba(128, 128, 128, 0.362);
+            color: black;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: all 200ms ease-in-out;
+        }
+        .detalle_juego {
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(128, 128, 128, 0.362);
+            a {
+                color: black;
+                transition: all 200ms ease-in-out;
+                &:hover {
+                    color: white;
+                    background-color: black;
+                    padding: 7px;
+                    border-radius: 20px;
+                    svg {
+                        height: 26px;
+                        width: 26px;
+                    }
+                }
+            }
+            p {
+                margin: 0;
+                padding: 10px;
+            }
+            .tarjeta_precio,
+            .tarjeta_stock {
+                color: black;
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+            svg {
+                display: block;
+                height: 24px;
+                width: 24px;
+            }
+        }
+        &:hover {
+            box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+            -webkit-box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+            -moz-box-shadow: 5px 7px 12px -2px rgba(0, 0, 0, 0.46);
+            .tarjeta_titulo {
+                background-color: black;
+                color: white;
+            }
+            svg {
+                display: block;
+            }
+        }
+    }
+}
+
+.ir_tienda {
+    a {
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        color: $negro_per;
+        h3 {
+            font-size: 1.2rem;
+            margin: 0;
+            margin-right: .8em;
+        }
+        svg {
+            width: 36px;
+            height: 36px;
+        }
+    }
+}
+
+.seccion_info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+    p {
+        color: white;
+        margin-bottom: 1em;
+    }
+    input,
+    button {
+        margin-bottom: 1em;
+        padding: .3em;
+    }
+    button {
+        border: 1px solid white;
+        background-color: $negro_per;
+        color: white;
+        border-radius: 10px;
+    }
+    &_mail {
+        display: flex;
+        flex-direction: column;
+        button {
+            color: white;
+        }
+    }
+}
+
+.seccion_redes {
+    p {
+        color: white;
+        font-size: 1.3rem;
+    }
+    svg {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .grilla_juegos {
+        grid-template-columns: repeat(3, 1fr);
+        .tarjeta {
+            svg {
+                height: 21px;
+                width: 21px;
+            }
+            .corazon {
+                right: 0.6em;
+                top: 0.6em;
+            }
+            .tarjeta_titulo {
+                font-size: 1.1rem;
+            }
+        }
+    }
+    .ir_tienda {
+        a {
+            h3 {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .seccion_info {
+        display: flex;
+        flex-direction: column;
+        p {
+            color: white;
+        }
+        &_mail {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            input {
+                flex: 5;
+                margin-right: 15%;
+                padding: .6em;
+                border-radius: 15px;
+            }
+            button {
+                flex: 2;
+                display: inline-block;
+                width: 30%;
+                padding: .6em;
+                border: 1px solid white;
+                transition: all 250ms ease-in-out;
+                text-transform: uppercase;
+                &:hover {
+                    border: 1px solid $negro_per;
+                    background-color: white;
+                    color: $negro_per;
+                }
+            }
+        }
+    }
+    .seccion_redes {
+        p {
+            font-size: 1.5rem;
+        }
+        svg {
+            height: 45px;
+            width: 45px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .recien_llegados {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grilla_juegos {
+        grid-template-columns: repeat(4, 1fr);
+        .tarjeta {
+            .img_card {
+                width: 100%;
+                height: 250px;
+                object-fit: contain;
+            }
+            svg {
+                height: 24px;
+                width: 24px;
+            }
+            .corazon {
+                right: 0.7em;
+                top: 0.7em;
+            }
+        }
+    }
+    .ir_tienda {
+        a {
+            h3 {
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .seccion_info {
+        display: flex;
+        flex-direction: column;
+        p {
+            color: white;
+        }
+        &_mail {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

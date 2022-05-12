@@ -1,0 +1,251 @@
+[{
+    "id": 1,
+    "nombre": "El Cinéfilo",
+    "editor": "Maldon",
+    "categoria": "tablero",
+    "precio": 2800,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/cinefilo_portada.png"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 1,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 2,
+    "nombre": "Furnace",
+    "editor": "Maldito Games",
+    "categoria": "cartas",
+    "precio": 2500,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/furnace_portada.jpg"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 1,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 3,
+    "nombre": "Brass Birmingham",
+    "editor": "Maldito Games",
+    "categoria": "tablero",
+    "precio": 3300,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/brassBirmingham_portada.jpg"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 1,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 4,
+    "nombre": "Catan",
+    "editor": "Devir",
+    "categoria": "tablero",
+    "precio": 3800,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/catan_portada.jpeg"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 1,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 5,
+    "nombre": "Ciudadelas",
+    "editor": "Asmodee",
+    "categoria": "cartas",
+    "precio": 1800,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/ciu_portada.jfif"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 1,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 6,
+    "nombre": "Imhotep",
+    "editor": "Devir",
+    "categoria": "tablero",
+    "precio": 3300,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/imhotep_portada.jpg"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 1,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 7,
+    "nombre": "Lorenzo Il Magnifico",
+    "editor": "CMON",
+    "categoria": "tablero",
+    "precio": 4200,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/lorenzo_portada.jpg"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 1,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 8,
+    "nombre": "The Island",
+    "editor": "ZYG Matic",
+    "categoria": "tablero",
+    "precio": 1400,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/the_island_portada.jpg"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 1,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 9,
+    "nombre": "Le Havre",
+    "editor": "Maldito Games",
+    "categoria": "tablero",
+    "precio": 3600,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/le_havre_portada.jfif"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 2,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 75,
+            "hasta": 150
+        },
+        "edad": 13
+    },
+    "componentes": {}
+}, {
+    "id": 10,
+    "nombre": "Feudum",
+    "editor": "Devir",
+    "categoria": "tablero",
+    "precio": 4500,
+    "stock": 1,
+    "imagenes": {
+        "portada": "../images/feudum_portada.jpg"
+    },
+    "descripcion": {
+        "sinopsis": "",
+        "bgg": "",
+        "yt": "",
+        "jugadores": {
+            "desde": 2,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 75,
+            "hasta": 150
+        },
+        "edad": 13
+    },
+    "componentes": {}
+}]

@@ -1,0 +1,79 @@
+[{
+    "id": 1,
+    "nombre": "Oh My Goods",
+    "editor": "Maldon",
+    "categoria": "cartas",
+    "precio": 2000,
+    "stock": 1,
+    "fecha": "2022-05-20",
+    "imagenes": {
+        "portada": "../images/ohmygoods_portada.jpg"
+    },
+    "descripcion": {
+        "sinopsis": "Oh My Goods! es un juego de cartas y de gestión de recursos. Los jugadores tendrán que construir edificios y para poder utilizarlos, tendrán que activarlos mediante un trabajador y algunos asistentes. Los edificios tendrán diferentes cadenas de producción y generarán recursos en función de un mercado (que será común para todos los jugadores) y de las cartas de las manos de los jugadores. El mercado será una de las particularidades del juego, ya que se mostrará en 2 pasos y los jugadores deberán hacer apuestas en función de las cartas visibles y de las que falten para poder activar el edificio en el que colocarán a su trabajador. Además, los recursos servirán también como monedas y nos permitirán construir nuevos edificios.                        Las partidas del juego Oh My Goods! se desarrollan en un número indeterminado de rondas y cada una de estas rondas, consta de 4 fases: robar cartas, amanecer, anochecer, producción y construcción.",
+        "bgg": "https://boardgamegeek.com/boardgame/183840/oh-my-goods",
+        "yt": "https://www.youtube.com/watch?v=QTut9vokOb4",
+        "jugadores": {
+            "desde": 2,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 60,
+            "hasta": 180
+        },
+        "edad": 10
+    },
+    "componentes": {}
+}, {
+    "id": 2,
+    "nombre": "Catan",
+    "editor": "Devir",
+    "categoria": "tablero",
+    "precio": 3200,
+    "stock": 1,
+    "fecha": "2022-06-12",
+    "imagenes": {
+        "portada": "../images/catan_portada.jpeg"
+    },
+    "descripcion": {
+        "sinopsis": "El juego se desarrolla sobre un tablero montado al azar, formado por casillas hexagonales que representan los campos, montañas, bosques, canteras y llanuras de la isla de Catan; y sobre las cuales se ubica un marcador que indica el número de una las tiradas de dados posibles (números 2 al 12). De acuerdo al resultado en los dados, los jugadores obtendrán materias primas de aquellas tierras en las que hayan construido sus pueblos y ciudades, las cuales les servirán para seguir creando asentamientos y expandir sus dominios con el fin de conseguir los 10 puntos necesarios para ganar la partida.        A lo largo del juego, cada participante tendrá oportunidad no sólo de competir por el control de las mejores combinaciones de tierras, sino también de cambiar sus materias primas con la banca o con el resto de los jugadores, lo cual propiciará o entorpecerá irremediablemente las ambiciones de unos y otros. Pero eso no es todo, porque a la rivalidad de los jugadores y su cambiante fortuna, se sumará el azote implacable del Ladrón que, de cuando en cuando, le dará a un participante la oportunidad de robar las materias primas de uno de sus compañeros, echando por los suelos sus planes secretos de expansión.",
+        "bgg": "https://boardgamegeek.com/boardgame/13/catan",
+        "yt": "https://www.youtube.com/watch?v=N5SljJbSRgc",
+        "jugadores": {
+            "desde": 2,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 75,
+            "hasta": 180
+        },
+        "edad": 14
+    },
+    "componentes": {}
+}, {
+    "id": 3,
+    "nombre": "The Red Cathedral",
+    "editor": "Devir",
+    "categoria": "tablero",
+    "precio": 3100,
+    "stock": 1,
+    "fecha": "2022-07-30",
+    "imagenes": {
+        "portada": "../images/red_cathedral_portada.jpg"
+    },
+    "descripcion": {
+        "sinopsis": "El Zar Iván el terrible (no le digan que le decimos así) quiere ver resultados y nuestro equipo le demostrará que somos los mejores constructores de la ciudad, mejores que los otros. Estamos seguros de que decoraremos de mejor manera esos arcos de la catedral con las piedras más preciosas y relucientes y aseguraremos nuestro lugar en la lista de trabajadores de confianza del Zar. The Red Cathedral es un juego de mesa estratégico con mecánicas bastante sencillas, donde podremos contar con 3 tipos de acciones: asignar y quedar con una sección de la catedral, enviar recursos a esa sección, o ir al tablero de juego para conseguir más recursos, se coronará como ganador el que logre generar más puntos con dichas acciones.",
+        "bgg": "https://boardgamegeek.com/boardgame/227224/red-cathedral",
+        "yt": "https://www.youtube.com/watch?v=sTYVAbCmZXc",
+        "jugadores": {
+            "desde": 2,
+            "hasta": 4
+        },
+        "tiempo": {
+            "desde": 75,
+            "hasta": 100
+        },
+        "edad": 12
+    },
+    "componentes": {}
+}]

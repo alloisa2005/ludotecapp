@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludotecapp | Favoritos</title>
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <div class="pantalla_completa">
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="miHeader">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo_nav" src="../images/dicePortada.png" alt="Logo Ludotecapp">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-center d-sm-flex flex-sm-row justify-content-sm-around my-sm-2">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link titulos_navbar" href="./tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link titulos_navbar" href="#">Favoritos</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link titulos_navbar" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link icono-carro" href="./carrito.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                </svg>
+                                <div class="d-none"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin NavBar -->
+
+        <section class="container text-center">
+            <h2>Lista de Favoritos</h2>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p>Ludotecapp &copy;</p>
+
+                <a href="#miHeader">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="white" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                    </svg>
+                </a>
+
+                <p>Sitio por Aa</p>
+            </div>
+        </footer>
+        <!-- Fin Footer -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+    <script src="../js/favoritos.js"></script>
+</body>
+
+</html>
